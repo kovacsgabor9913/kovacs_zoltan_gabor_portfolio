@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #0C0C45;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #FDF9F7;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.navigacio {
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+    background-color: #41839D;
+    justify-content: space-around;
+}
+
+.navigacio ul {
+    list-style: none;
+    display: flex;
+    background-color: #41839D;
+}
+
+.navigacio ul li {
+    margin: 0 10px;
+    display: flex;
+}
+
+.navigacio ul li a {
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    color: #0C0C45;
+    font-weight: bold;
+}
+
+.oldal {
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+img {
+    text-align: center;
+    margin: 30px 0;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.oldal > div:first-child {
+    margin-top: 30px;
+}
+
+.oldal > div {
+    width: 800px;
+    margin-bottom: 30px;
+}
+
+.oldal .bevezeto img{
+    margin-bottom: 0;
+}
+
+.oldal .munka {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.oldal .adat {
+    padding: 50px;
+}
+
+.oldal .adat label {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.oldal .adat span {
+    display: block;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #2490BA;
+    text-align: center;
+}
+
+.tanulmanyok p,
+.oldal .munka p {
+    text-align: justify;
+}
+
+.valasztott-oldal {
+    display: flex;
+}
+
+.valasztott {
+    background-color: #0C0C45;
+    color: #EB7231 !important;
+}
+
+.navigacios-link {
+    cursor: pointer;
+}
+
+footer {
+    height: 50px;
+    bottom: 0;
+    background-color: #0C0C45;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div strong {
+    color: #EB7231;
+}

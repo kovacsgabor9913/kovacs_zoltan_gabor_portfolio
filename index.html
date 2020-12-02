@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <link type="text/css" rel="stylesheet" href="./css/index.css">
+    <head>
+        <title>Kovács Gábor honlapja</title>
+    </head>
+    <body>
+        <header class="navigacio">
+            <ul>
+                <li>
+                    <a id="rolam-navigacio" onclick="oldalValtas('rolam')" class="navigacios-link valasztott">Rólam</a>
+                </li>
+                <li>
+                    <a id="munkak-navigacio" onclick="oldalValtas('munkak')" class="navigacios-link">Munkák</a>
+                </li>
+                <li>
+                    <a id="elerhetoseg-navigacio" onclick="oldalValtas('elerhetoseg')" class="navigacios-link">Elérhetőségek</a>
+                </li>
+                <li>
+                    <a id="fejlesztes-navigacio" onclick="oldalValtas('fejlesztes')" class="navigacios-link">Fejlesztés</a>
+                </li>
+            </ul>
+        </header>
+
+        <main class="oldalak">
+            <div id="rolam" class="oldal valasztott-oldal">
+                <div class="bevezeto">
+                    <h1>Hello.</h1>
+                    <h2>
+                        A nevem Kovács Zoltán Gábor. Gépészmérnöknek tanulok.
+                    </h2>
+                    <img src="./assets/kovacs_gabor.jpg" width="800px" alt="Kovács Gábor">
+                </div>
+                <div class="tanulmanyok">
+                    <h2>Tanulmányok</h2>
+                    <p>                                                       
+                        Jelenleg a Budapesti Műszaki és Gazdaságtudományi Egyetem hallgatója vagyok.
+                        Gimnáziumi tanulmányaimat a Debreceni Ady Endre Gimnáziumban végeztem, 
+                        emelt angol és német szakon (Debrecen, Magyarország)
+                    </p>
+                </div>
+            </div>
+        
+            <div id="munkak" class="oldal">
+                <div class="munka">
+                    <p>
+                        2018 és 2020 nyarán is építkezéseken dolgoztam segédmunkásként.
+                    </p>
+                    <img src="./assets/epitkezes.jpg" width="800px" alt="Építkezés">
+                </div>
+                <div class="munka">
+                    <p>
+                        A jövőben épületgépészettel tervezek foglalkozni ezért is szerettem volna a szakma alapjaival megismerkedni.
+                    </p>
+                    <p>
+                        Továbbá 2019 nyarán a gimnáziumban megszerzett német tudásnak köszönhetően német csoportokat kísértem Debrecenben.
+                    </p>
+                    <img src="./assets/csoportvezeto.jpg" width="800px" alt="Csoportvezető">
+                </div>
+                <div class="munka">
+                    <p>
+                        A diplomám megszerzése után, mint fent említettem, épületgépészettel szeretnék foglalkozni.
+                    </p>
+                    <img src="./assets/hoszivattyu.jpg" width="800px" alt="Hőszivattyú">
+                    <p>
+                        A jövőben egyre fontosabb lesz az energiagazdálkodás, minden "zöldebb" kell majd, hogy legyen. 
+                        És szerintem emiatt az átalakulás miatt lesz majd izgalmas, nagy potenciát rejtő, és keresett ez a foglalkozás.
+                    </p>
+                </div>
+            </div>
+            
+            <div id="elerhetoseg" class="oldal">
+                <div class="adat">
+                    <label for="email">Email:</label>
+                    <span id="email">kovacs.gabor9913@freemail.com </span>
+                </div>
+                <div class="adat">
+                    <label for="telefonszam">Telefon:</label> 
+                    <span id="telefonszam">+36301234567</span>
+                </div>
+                <div class="adat">
+                    <label for="postafiok">Postafiók:</label> 
+                    <span id="postafiok">Kovács Zoltán Gábor, 4024, Debrecen, Magyarország</span>
+                </div>
+            </div>
+            
+            <div id="fejlesztes" class="oldal">
+                <div class="munka">
+                    <p>
+                        Oldal előzetes terve:
+                    </p>
+                    <img src="./assets/elozetes_terv.png" width="800px" alt="Oldal terv">
+                </div>
+                <div class="munka">
+                    <p>
+                        Oldal előzetes design terve:
+                    </p>
+                    <img src="./assets/deisgn_terv.png" width="800px" alt="Design terv">
+                </div>
+                <div class="munka">
+                    <h1>Eredeti tervek</h1>
+                    <p>
+                        Eredetileg egy kis bemutató oldalt szerettem volna csinálni magamról,
+                        az eddigi munksságomról.
+                    </p>
+                </div>
+                <div class="munka">
+                    <h1>Változások útközben</h1>
+                    <p>
+                        Miközben készítettem a weboldalt gondoltam kiegészíthetném a jövőbeli
+                        tervezett munkásságommal is.
+                    </p>
+                </div>
+                <div class="munka">
+                    <h1>Felmerült nehézségek:</h1>
+                    <p>
+                        A navigációs sáv elkészíésével meggyűlt a bajom eleinte, de az alább
+                        linkelt leírás segítségével végül sikerült úgy megcsinálni ahogy szerettem volna.
+                    </p>
+                    <p>
+                        Az adott aloldalak elrejtése/megjelenítése is fejtörő volt egy darabig, 
+                        amikor végül kitaláltam rá egy egyszerű megoldást. A pillanatnyilag kiválasztott
+                        elem elrejtésével, és a megnyitandó oldal megjelenítésével.
+                    </p>
+                </div>
+                <div class="munka">
+                    <h1>
+                        Felhasznált oldalak
+                    </h1>
+                    <ul>
+                        <li>
+                            <a href="https://www.w3schools.com/html/default.asp">Html alapok</a>
+                        </li>
+                        <li>
+                            <a href="https://www.w3schools.com/css/default.asp">Css alapok</a>
+                        </li>
+                        <li>
+                            <a href="https://www.w3schools.com/js/default.asp">Javascript alapok</a>
+                        </li>
+                        <li>
+                            <a href="https://www.w3schools.com/css/css_navbar.asp">Navigációs sáv</a>
+                        </li>
+                        <li>
+                            <a href="https://www.w3schools.com/howto/howto_css_fixed_footer.asp">Footer</a>
+                        </li>
+                        <li>
+                            <a href='https://www.w3schools.com/colors/colors_complementary.asp'>Színválasztás</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div>
+                <strong>&copy;2020 Kovács Gábor</strong>
+            </div>
+        </footer>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>
